@@ -30,57 +30,43 @@ const leaders = [
     creds: "B.Sc, FCA, CISA, CIRM, ORE",
     role: "Senior Consultant — Governance & Risk",
     photo: alamutu,
-    bio: `Ayo Alamutu is a governance, risk, audit, and compliance executive with over 30 years of professional experience across the United Kingdom and Nigeria. He brings a rare combination of technical depth and strategic perspective to every engagement.
-
-He has held senior leadership positions in financial services, the public sector, and professional practice — including roles as Head of Internal Audit and Chief Risk Officer at major financial institutions. He has extensive experience in IT audit, enterprise risk management, and regulatory compliance.
-
-Ayo is a Fellow of the Institute of Chartered Accountants of Nigeria (ICAN), a Certified Information Systems Auditor (CISA), and a Certified International Risk Manager (CIRM). He currently serves as Vice Chair of the IRM Nigeria Regional Group and as a Board Member of the Institute of Internal Auditors (IIA) Nigeria Chapter.
-
-He is a sought-after facilitator and speaker on governance, risk, and internal audit matters.`,
+    bio: `Ms. Alamutu is a Governance, Risk, Audit, Assurance, and Compliance Executive with over 30 years of experience across the UK and Nigeria. She advises Boards and senior management on enterprise risk, operational resilience, business continuity, and internal audit, supporting organisations to strengthen performance, manage disruption, and preserve value across sectors including banking, insurance, manufacturing, investment, and fintech. She is a Fellow of the Institute of Chartered Accountants of Nigeria (FICAN), a Certified Member of the Institute of Risk Management (CIRM), holds a Certificate in Risk Governance from the DCRO Institute, and currently serves as Vice Chair of the IRM Nigeria Regional Group. She is also an Information Systems Auditor, Project Management Professional, and a Board member of the Institute of Internal Auditors.`,
   },
   {
     name: "Babafunke Ajibade",
     creds: "B.Sc, FCA, CPFA",
     role: "Senior Consultant — Audit & Assurance",
     photo: ajibade,
-    bio: `Babafunke Ajibade is a Senior Consultant specialising in audit and assurance, with nearly three decades of professional experience across the private sector, government, and the third sector in both Nigeria and the United Kingdom.
-
-She has led and quality-reviewed statutory audits for a wide range of organisations, including regulated entities, public sector bodies, and not-for-profit organisations. Her technical expertise spans financial statement audits, agreed-upon procedures, and internal audit co-sourcing arrangements.
-
-Babafunke is a Fellow of the Institute of Chartered Accountants of Nigeria (ICAN) and a Certified Public Finance Accountant (CPFA). She is known for her meticulous attention to detail, her ability to communicate complex audit findings clearly to boards and audit committees, and her commitment to quality assurance on every engagement.`,
+    bio: `A multi-skilled Governance, Financial Accounts, Risk, Audit, Assurance, and Compliance Executive across Private, Government and Third party (Charity) Sectors with over three decades of progressive experience across Nigeria and the United Kingdom. Her core strength lies in quality control on Assurance Audits advising Boards, Trustees and Senior Management on enterprise risk, strategy, compliance, business continuity, internal audit practice, helping organizations strengthen performance, compliance on accounting and auditing standards, sustain competitive advantage at industry level and respond proactively to disruption. She has worked on audits ranging from Nuclear decommissioning agencies, HMRC, Government departments and international charity audits, review of established audit and compliance systems, and supported risk-based strategy, compliance, and internal audit. She specializes in assessment of compliance with the relevant international standards. Mrs. Ajibade is a member of the Institute of Chartered Accountants of Nigeria, A Certified member of The Chartered Institute of Public Finance Accountants CIPFA.`,
   },
   {
     name: "Fusi Akinkugbe",
     creds: "B.Sc, FCA",
     role: "Senior Consultant — Financial Services",
     photo: akinkugbe,
-    bio: `Fusi Akinkugbe brings nearly four decades of experience across professional practice, corporate leadership, and the public sector. Her career spans both the private and public sectors, with significant leadership roles in financial services, governance, and professional advisory.
-
-She is a pioneer Managing Director/CEO of Chrysalis Limited and has served in senior executive and non-executive roles across a range of institutions. Her areas of specialism include financial reporting, governance advisory, forensic accounting, and IFRS implementation.
-
-Fusi is a Fellow of the Institute of Chartered Accountants of Nigeria (ICAN). She is respected for her strategic thinking, her commitment to ethical practice, and her ability to translate complex financial and governance challenges into clear, actionable recommendations.`,
+    bio: ` Mr. Fusi Akinkugbe is a seasoned finance and assurance professional with nearly four decades of experience spanning professional practice, corporate leadership, consulting, and the public sector. He holds a degree in Economics and is a Chartered Accountant and Fellow of the Institute of Chartered Accountants of Nigeria (FCA). He has held senior executive roles including Treasury Controller at DHL International Nigeria Ltd and pioneer Managing Director/CEO of Chrysalis Ltd, a technology services company jointly owned by Accenture and two financial institutions. Mr. Akinkugbe has led high-profile audit, forensic, and advisory engagements, with strong expertise in governance, internal controls, and organisational effectiveness.`,
   },
   {
     name: "Anthony Ebele",
     creds: "HND, ACTI",
     role: "Head, Tax Management & Advisory",
     photo: ebele,
-    bio: `Anthony Ebele heads the Tax Management and Advisory practice at Abax Professional Services. He has extensive experience advising corporations, SMEs, and high-net-worth individuals across the full range of Nigerian tax obligations and planning opportunities.
+    bio: `Anthony Ebele is a results-driven tax professional with strong expertise in tax compliance, advisory, and regulatory reporting. Experienced in providing end-to-end tax solutions, including corporate and personal income tax, VAT, withholding tax, Capital Gain Tax and tax audits for both Federal and State Revenue Services.
 
-His expertise covers corporate income tax compliance and advisory, Value Added Tax (VAT), withholding tax, transfer pricing documentation and compliance, and tax controversy support — including representing clients before the Federal Inland Revenue Service (FIRS) and State Internal Revenue Services.
+He is skilled in interpreting tax laws, identifying tax-saving opportunities, and ensuring full compliance with statutory requirements.
 
-Anthony is an Associate of the Chartered Institute of Taxation of Nigeria (ACTI). He is known for his practical, solution-oriented approach to tax advisory and his ability to help clients achieve compliance while minimising unnecessary tax exposure.`,
+Anthony is also known for delivering practical, client-focused advice, maintaining strong relationships with tax authorities, and supporting businesses in managing tax risks efficiently while aligning with evolving regulatory frameworks.`,
   },
   {
     name: "Dare Osoneye",
     creds: "BSc, MSc, SHRM-CP, ACIPM",
     role: "Head, Human Resources Consulting",
     photo: osoneye,
-    bio: `Dare Osoneye heads the Human Resources Consulting practice at Abax Professional Services. He brings deep expertise in organisation design, compensation and benefits, talent management, performance management, and HR policy development to a wide range of client engagements.
+    bio: `Dare Osoneye is a dedicated Human Resource professional with years of experience in talent acquisition, employee relations, performance management and organisational development. As an HR generalist and an HR Consultant, she is skilled at implementing HR strategies that enhance productivity, retention and compliance.
 
-He has advised organisations across the financial services, telecoms, FMCG, and public sectors on building HR frameworks that align people strategy with business performance objectives. His approach is grounded in international HR best practice while remaining sensitive to the local operating environment.
+She holds an M.Sc. in Employment Relations and HR Management and a B.Sc. in Economics, both from the University of Lagos. She is a certified and licensed HR consultant with her CIPM HR practitioners license, a member of the Society for Human Resource Management (SHRM-CP) and an associate of the Chartered Institute of Personnel Management (ACIPM).
 
-Dare holds a Master's degree in Human Resource Management, and is a certified SHRM-CP (Society for Human Resource Management – Certified Professional) and an Associate of the Chartered Institute of Personnel Management (ACIPM) of Nigeria.`,
+She is passionate about driving corporate efficiency through strategic HR initiatives.`,
   },
 ];
 
