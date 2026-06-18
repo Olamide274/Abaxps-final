@@ -30,7 +30,7 @@ const services = [
     icon: FileText,
     title: "Financial Reporting & Compliance",
     tagline: "Transparency in every disclosure.",
-    desc: "Strengthening the accuracy, transparency, and trustworthiness of your financial reporting under IFRS and local GAAP — from policy design to disclosure review.",
+    desc: "Strengthening the accuracy, transparency, and trustworthiness of your financial reporting under IFRS and local GAAP  from policy design to disclosure review.",
     items: [
       "IFRS conversion & ongoing support",
       "Technical accounting memos",
@@ -66,7 +66,7 @@ const services = [
     icon: Briefcase,
     title: "Strategic & Transaction Advisory",
     tagline: "Decisions you can defend.",
-    desc: "Financial and commercial advice for major decisions — from due diligence and valuations to performance improvement and finance function transformation.",
+    desc: "Financial and commercial advice for major decisions  from due diligence and valuations to performance improvement and finance function transformation.",
     items: [
       "Financial & commercial due diligence",
       "Business valuations",

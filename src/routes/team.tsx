@@ -23,13 +23,7 @@ const leaders = [
     creds: "B.Sc, FCA, FCIT",
     role: "Principal Consultant",
     photo: sofowora,
-    bio: `Olapeju Sofowora is the Principal Consultant of Abax Professional Services. She has about 40 years of post-qualification experience spanning audit, tax, corporate finance, financial advisory, and management consulting.
-
-She began her professional career at Coopers & Lybrand (now PricewaterhouseCoopers), gaining deep experience across audit and assurance before transitioning into senior roles in the banking and financial services sector. She served as Head of Internal Audit at Fountain Trust Bank and later as Deputy General Manager – Finance at the same institution.
-
-She subsequently founded Abax-OOSA Professionals, a multi-disciplinary professional services firm where she served as Managing Partner for over 17 years, advising public and private sector clients across audit, tax, and advisory engagements.
-
-Olapeju is a Fellow of the Institute of Chartered Accountants of Nigeria (ICAN), a Fellow of the Chartered Institute of Taxation of Nigeria (CITN). She is deeply committed to governance, financial transparency, and the professional development of the next generation of accountants.`,
+    bio: `Olapeju E. Sofowora is the Principal Consultant of ABAX Professional Services, bringing about 40 years of experience across audit, tax, corporate finance, and professional advisory services. She began her career at Coopers & Lybrand (now PricewaterhouseCoopers), later held senior roles in the banking sector, and went on to establish and lead multiple professional services practices, including serving as Partner and Managing Partner at Abax-OOSA Professionals for over 17 years. Her passion for quality professional services led her to establish Binary Consulting Limited, a Human Resources Consulting firm specialising in recruitment, outsourcing and training for clients across different industries. Olapeju is a Fellow of the Institute of Chartered Accountants of Nigeria (ICAN) and the Chartered Institute of Taxation of Nigeria (CITN), a Certified Information Systems Auditor (CISA), and holds a degree in Statistics from the University of Ilorin. She has served on corporate and institutional boards, including First City Monument Bank Group, Royal Trust Assurance Limited (Merged with Crusader Insurance), Olashore International School Association, the Educational Committee of the Chartered Institute of Taxation and as an Executive Committee Member of the Money Market Association of Nigeria, and remains active in governance, compliance, and professional development initiatives.`,
   },
   {
     name: "Ayo Alamutu",
@@ -107,7 +101,7 @@ function TeamPage() {
             Senior-led, <span className="italic text-gradient-gold">always.</span>
           </motion.h1>
           <p className="mt-8 max-w-2xl text-lg text-muted-foreground leading-relaxed">
-            Every engagement is led personally by a senior consultant — bringing decades of hands-on expertise and accountability to the work we deliver.
+            Every engagement is led personally by a senior consultant  bringing decades of hands-on expertise and accountability to the work we deliver.
           </p>
         </div>
       </section>

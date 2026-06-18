@@ -37,7 +37,7 @@ const faqs = [
   },
   {
     q: "How does your engagement model work?",
-    a: "Every engagement is led personally by a senior consultant — not delegated to junior staff. We start with a detailed scoping conversation to understand your objectives, then propose a tailored approach, timeline, and fee. We keep communication clear and regular throughout.",
+    a: "Every engagement is led personally by a senior consultant  not delegated to junior staff. We start with a detailed scoping conversation to understand your objectives, then propose a tailored approach, timeline, and fee. We keep communication clear and regular throughout.",
   },
   {
     q: "Do you work with international organisations and NGOs?",
@@ -57,7 +57,7 @@ const faqs = [
   },
   {
     q: "Can you work alongside our existing finance team?",
-    a: "Absolutely. We frequently co-source, supplement, or support in-house finance and internal audit teams — particularly during periods of transition, capacity constraints, or regulatory review. We aim to build capability within client organisations, not dependency on us.",
+    a: "Absolutely. We frequently co-source, supplement, or support in-house finance and internal audit teams  particularly during periods of transition, capacity constraints, or regulatory review. We aim to build capability within client organisations, not dependency on us.",
   },
   {
     q: "How do I get started?",
@@ -167,12 +167,12 @@ function AboutPage() {
               {
                 tag: "Our Vision",
                 title: "To be a leading, respected professional services firm.",
-                body: "To build a resilient, high-performing professional services firm that consistently delivers measurable value — and that is recognised as a trusted partner for governance, financial reporting, and strategic advisory across Nigeria and beyond.",
+                body: "To build a resilient, high-performing professional services firm that consistently delivers measurable value  and that is recognised as a trusted partner for governance, financial reporting, and strategic advisory across Nigeria and beyond.",
               },
               {
                 tag: "Our Mission",
                 title: "Strengthen governance. Enhance transparency. Create value.",
-                body: "To deliver high-quality assurance and advisory services that strengthen governance, enhance financial transparency, and create lasting, measurable value for the clients we serve — through senior-led, independent, and technically rigorous work.",
+                body: "To deliver high-quality assurance and advisory services that strengthen governance, enhance financial transparency, and create lasting, measurable value for the clients we serve  through senior-led, independent, and technically rigorous work.",
               },
             ].map((item) => (
               <div key={item.tag} className="bg-white p-10 lg:p-14">
@@ -200,7 +200,7 @@ function AboutPage() {
             </div>
             <div className="lg:col-span-6 lg:pt-12">
               <p className="text-lg text-muted-foreground leading-relaxed">
-                Our values are not aspirational statements — they are the standards we hold ourselves to on every engagement, with every client.
+                Our values are not aspirational statements  they are the standards we hold ourselves to on every engagement, with every client.
               </p>
             </div>
           </div>
@@ -271,7 +271,7 @@ function AboutPage() {
             Ready to start a <span className="italic text-[#F5C518]">conversation?</span>
           </h2>
           <p className="mt-6 max-w-2xl mx-auto text-white/75 text-lg">
-            Whether you're preparing for an audit, planning a transaction, or strengthening your finance function — we'd be glad to think it through with you.
+            Whether you're preparing for an audit, planning a transaction, or strengthening your finance function  we'd be glad to think it through with you.
           </p>
           <Link to="/contact" className="mt-10 inline-flex items-center gap-3 px-7 py-3.5 rounded-full bg-[#F5C518] text-[#1B3FA0] text-sm font-semibold hover:shadow-gold transition-all">
             Contact our partners <span aria-hidden>→</span>
