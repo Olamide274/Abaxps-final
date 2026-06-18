@@ -80,7 +80,7 @@ export function Team() {
           </div>
           <div className="lg:col-span-5 lg:col-start-8 self-end">
             <p className="text-base lg:text-lg text-muted-foreground leading-relaxed">
-              Every assignment is led personally by a senior consultant — bringing decades of hands-on
+              Every assignment is led personally by a senior consultant  bringing decades of hands-on
               expertise and accountability to the work we deliver.
             </p>
           </div>

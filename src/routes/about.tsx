@@ -133,20 +133,20 @@ function AboutPage() {
             <p>
               Abax Professional Services was established to provide independent, senior-led professional services to organisations
               seeking high-quality audit, tax, and advisory support. We are the evolution of a practice with deep roots in the Nigerian
-              professional services landscape — built around the experience, relationships, and values of our founding partners.
+              professional services landscape  built around the experience, relationships, and values of our founding partners.
             </p>
             <p>
               Our principals bring decades of post-qualification experience from leading international accounting firms, major financial
-              institutions, and senior public sector roles. That depth of experience — across multiple sectors and market cycles — informs
+              institutions, and senior public sector roles. That depth of experience  across multiple sectors and market cycles  informs
               everything we do: our technical approach, our risk awareness, and our instinct for what clients actually need.
             </p>
             <p>
               We are independent by design and senior-led by intent. Every engagement carries the personal judgement of professionals
-              who have seen the regulatory landscape evolve, and who understand where the real risks — and the real opportunities — sit.
+              who have seen the regulatory landscape evolve, and who understand where the real risks  and the real opportunities sit.
             </p>
             <p>
               Above all, we work in service of long-term relationships. The most rewarding part of our practice is being the firm our
-              clients call first — when they face a challenge, a change, or an opportunity.
+              clients call first when they face a challenge, a change, or an opportunity.
             </p>
           </div>
         </div>
