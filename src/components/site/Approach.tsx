@@ -49,7 +49,7 @@ export function Approach() {
             Trusted insight. <span className="italic text-gradient-gold">Sustainable</span> growth.
           </motion.h2>
           <p className="text-cream/70 leading-relaxed text-base lg:text-lg max-w-xl mb-10">
-            We are a modern firm of Chartered Accountants and Business Advisors — agile, technically strong,
+            We are a modern firm of Chartered Accountants and Business Advisors agile, technically strong,
             and committed to helping clients navigate complexity with confidence. Our values shape every engagement.
           </p>
 
