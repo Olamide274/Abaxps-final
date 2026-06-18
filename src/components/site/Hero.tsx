@@ -15,7 +15,7 @@ const slides = [
     image: heroBoardroom,
     eyebrow: "Audit · Tax · Advisory",
     title: ["Trusted insight.", "Sustainable growth."],
-    text: "Deep professional expertise paired with practical business experience — solutions that are technically sound, commercially relevant, and built to last.",
+    text: "Deep professional expertise paired with practical business experience  solutions that are technically sound, commercially relevant, and built to last.",
   },
   {
     image: heroTower,

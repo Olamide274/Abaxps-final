@@ -74,7 +74,7 @@ function ContactPage() {
               Begin a <span className="italic text-gradient-gold">conversation</span> with our partners.
             </motion.h1>
             <p className="mt-8 text-cream/70 max-w-xl text-lg leading-relaxed">
-              Whether you're preparing for an audit, planning a transaction, or strengthening your finance function — we'd be glad to help you think it through.
+              Whether you're preparing for an audit, planning a transaction, or strengthening your finance function  we'd be glad to help you think it through.
             </p>
             <div className="mt-14 grid sm:grid-cols-2 gap-px bg-cream/10 border border-cream/10">
               {info.map((item, i) => {
