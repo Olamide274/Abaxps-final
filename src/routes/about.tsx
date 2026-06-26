@@ -32,37 +32,34 @@ const principles = [
 
 const faqs = [
   {
-    q: "What types of organisations do you work with?",
-    a: "We work with a wide range of organisations across the private sector, public sector, and not-for-profit space. Our clients include financial institutions, listed companies, SMEs, government agencies, NGOs, and donor-funded programmes. We have particular depth in financial services, telecoms, FMCG, and the public sector.",
+    q: "What services does Abax Professional Services provide?",
+    a: "Abax Professional Service provides professional services across accounting, auditing, tax management, human resources, and business consulting. Each service is tailored to meet the specific operational and compliance needs of businesses.",
   },
   {
-    q: "How does your engagement model work?",
-    a: "Every engagement is led personally by a senior consultant  not delegated to junior staff. We start with a detailed scoping conversation to understand your objectives, then propose a tailored approach, timeline, and fee. We keep communication clear and regular throughout.",
+    q: "Is Abax Professional Service registered with Nigerian regulatory bodies?",
+    a: "Yes. Abax Professional Service is a member of the MSI Global Alliance and operates in full compliance with Nigerian regulatory and professional standards, including ICAN, CITN, FRCN, and NDPC.",
   },
   {
-    q: "Do you work with international organisations and NGOs?",
-    a: "Yes. We have extensive experience supporting international NGOs, donor-funded programmes, and development finance institutions operating in Nigeria. We understand donor reporting requirements, including USAID, DFID/FCDO, EU, and UN system requirements.",
+    q: "How does Abax Professional Service help businesses navigate Nigeria's 2025 Tax Reform Acts?",
+    a: "Our tax specialists continuously monitor legislative updates, including the 2025 Tax Reform Acts. We provide tailored advisory services that help businesses understand and comply with Companies Income Tax, Value Added Tax, Withholding Tax, and Personal Income Tax obligations.",
   },
   {
-    q: "How are your fees structured?",
-    a: "Fees are tailored to the scope, complexity, and duration of each engagement. We offer fixed-fee, retainer, and time-and-materials arrangements depending on the nature of the work. We are transparent about fees from the outset and do not charge for initial scoping conversations.",
+    q: "What does your auditing service cover?",
+    a: "Our auditing services include statutory audits, internal audits, and forensic audits. We deliver independent and objective evaluations of financial records to ensure transparency, accuracy, and regulatory compliance.",
   },
   {
-    q: "Are you registered with the relevant professional bodies?",
-    a: "Yes. Abax Professional Services is registered with the Institute of Chartered Accountants of Nigeria (ICAN) and the Financial Reporting Council of Nigeria (FRC). Our individual consultants hold active memberships with ICAN, CITN, IIA, ISACA, and CIPM, among others.",
+    q: "Can Abax Professional Service help HR management for my business?",
+    a: "Yes. Our HR consulting services include workforce planning, recruitment support, HR policy development, payroll administration, and compliance with Nigerian labour laws.",
   },
   {
-    q: "What is your approach to confidentiality?",
-    a: "Confidentiality is a core professional obligation and a firm value. All client engagements are subject to strict professional confidentiality standards. We sign non-disclosure agreements where required and maintain robust information security practices.",
+    q: "Does Abax Professional Service offer ongoing support or one-time engagements?",
+    a: "We offer both engagement models. Clients can work with us on specific projects such as tax filings or audits, or retain us for ongoing support covering accounting, HR management, and strategic advisory services.",
   },
   {
-    q: "Can you work alongside our existing finance team?",
-    a: "Absolutely. We frequently co-source, supplement, or support in-house finance and internal audit teams  particularly during periods of transition, capacity constraints, or regulatory review. We aim to build capability within client organisations, not dependency on us.",
+    q: "Why should i choose Abax Professional Service?",
+    a: "Abax Professional Service combines years of professional expertise with a strong commitment to excellence, integrity, and client satisfaction. Our track record demonstrates consistent delivery of reliable and high-quality services that support business growth and compliance.",
   },
-  {
-    q: "How do I get started?",
-    a: "Simply reach out via our contact page or call our office directly. An initial conversation with one of our senior consultants is always without charge. We'll take the time to understand your needs and propose the right approach.",
-  },
+  
 ];
 
 function FaqItem({ q, a }: { q: string; a: string }) {
