@@ -53,14 +53,17 @@ function CookieBanner() {
   const decline = () => { try { localStorage.setItem("abax_cookie_consent", "declined"); } catch {} setVisible(false); };
   if (!visible) return null;
   return (
-    <div className="fixed bottom-0 inset-x-0 z-50 p-4">
-      <div className="max-w-3xl mx-auto bg-white border border-[#C8D4F5] rounded-xl shadow-lg p-5 flex flex-col sm:flex-row items-start sm:items-center gap-4">
-        <p className="flex-1 text-sm text-[#4A65B8] leading-relaxed">
-          We use cookies to improve your experience and analyse site traffic. By clicking "Accept", you agree to our use of cookies.
+    <div className="fixed bottom-0 inset-x-0 z-50 bg-white border-t border-[#C8D4F5] shadow-lg px-6 py-4">
+      <div className="max-w-7xl mx-auto flex flex-col sm:flex-row items-start sm:items-center gap-4 justify-between">
+        <p className="text-sm text-[#4A65B8] leading-relaxed">
+          We use cookies to improve your experience, analyze traffic, and support marketing. You can accept or reject non-essential cookies.{" "}
+          <Link to="/cookie-policy" className="underline hover:text-[#1B3FA0] transition-colors">
+            Learn more
+          </Link>
         </p>
         <div className="flex items-center gap-3 shrink-0">
-          <button onClick={decline} className="text-xs px-4 py-2 rounded-full border border-[#C8D4F5] text-[#4A65B8] hover:border-[#1B3FA0] transition-colors">Decline</button>
-          <button onClick={accept} className="text-xs px-4 py-2 rounded-full bg-[#1B3FA0] text-white hover:bg-[#F5C518] hover:text-[#1B3FA0] transition-colors font-semibold">Accept</button>
+          <button onClick={decline} className="text-xs px-5 py-2 rounded-full border border-[#C8D4F5] text-[#4A65B8] hover:border-[#1B3FA0] transition-colors">Reject</button>
+          <button onClick={accept} className="text-xs px-5 py-2 rounded-full bg-[#1B3FA0] text-white hover:bg-[#F5C518] hover:text-[#1B3FA0] transition-colors font-semibold">Accept All</button>
         </div>
       </div>
     </div>

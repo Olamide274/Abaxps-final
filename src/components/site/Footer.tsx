@@ -59,7 +59,10 @@ export function Footer() {
       <div className="border-t border-cream/10">
         <div className="max-w-7xl mx-auto px-6 lg:px-10 py-6 flex flex-col md:flex-row items-center justify-between gap-3 text-xs text-cream/50">
           <span>© {year} Abax Professional Services. All Rights Reserved.</span>
-          <span className="uppercase tracking-[0.25em]">Mon — Fri · 9 AM to 5 PM</span>
+          <div className="flex items-center gap-6">
+            <Link to="/cookie-policy" className="hover:text-gold transition-colors">Cookie Policy</Link>
+            <span className="uppercase tracking-[0.25em]">Mon — Fri · 9 AM to 5 PM</span>
+          </div>
         </div>
       </div>
     </footer>
