@@ -12,7 +12,7 @@ const team = [
     role: "Principal Consultant",
     title: "Principal Consultant",
     creds: "B.Sc, FCA, FCIT",
-    bio: `Olapeju E. Sofowora is the Principal Consultant of ABAX Professional Services, with over 40 years of experience across audit, tax, corporate finance, and professional advisory services.\n\nShe began her career at Coopers & Lybrand (now PricewaterhouseCoopers), later held senior roles in the banking sector, and went on to establish and lead multiple successful professional services practices.\n\nShe is a Fellow of the Institute of Chartered Accountants of Nigeria and the Chartered Institute of Taxation of Nigeria, and remains active in governance, compliance, and professional development.`,
+    bio: "About 40 years across audit, tax, corporate finance and advisory. Began at Coopers & Lybrand (now PwC), held senior banking roles, and was Managing Partner at Abax-OOSA Professionals for 17+ years.",
     photo: sofowora,
   },
   {
@@ -20,7 +20,7 @@ const team = [
     role: "Senior Consultant",
     title: "Governance & Risk",
     creds: "B.Sc, FCA, CISA, CIRM",
-    bio: `Ms. Alamutu is a Governance, Risk, Audit, Assurance, and Compliance Executive with over 30 years of experience across the UK and Nigeria. She advises Boards and senior management on enterprise risk, operational resilience, business continuity, and internal audit, supporting organisations to strengthen performance, manage disruption, and preserve value across sectors including banking, insurance, manufacturing, investment, and fintech. She is a Fellow of the Institute of Chartered Accountants of Nigeria (FICAN), a Certified Member of the Institute of Risk Management (CIRM), holds a Certificate in Risk Governance from the DCRO Institute, and currently serves as Vice Chair of the IRM Nigeria Regional Group. She is also an Information Systems Auditor, Project Management Professional, and a Board member of the Institute of Internal Auditors.`,
+    bio: "Governance, risk, audit and compliance executive with 30+ years across the UK and Nigeria. Vice Chair, IRM Nigeria Regional Group and Board member, Institute of Internal Auditors.",
     photo: alamutu,
   },
   {
@@ -28,7 +28,7 @@ const team = [
     role: "Senior Consultant",
     title: "Audit & Assurance",
     creds: "B.Sc, FCA, CPFA",
-    bio: `Babafunke Ajibade has over three decades of experience in audit and assurance across the private, public, and third sectors in both Nigeria and the United Kingdom.\n\nShe specialises in quality assurance reviews, audit methodology, and compliance with international auditing and financial reporting standards.\n\nHer work helps organisations strengthen internal controls, improve accountability, and uphold the highest standards of financial integrity.`,
+    bio: "Three decades across private, government and third-sector audit in Nigeria and the UK. Specialist in quality control on assurance audits and compliance with international standards.",
     photo: ajibade,
   },
   {
@@ -36,7 +36,7 @@ const team = [
     role: "Senior Consultant",
     title: "Financial Services",
     creds: "B.Sc, FCA",
-    bio: `Fusi Akinkugbe brings nearly four decades of experience across professional practice, corporate leadership, and public sector engagements in Nigeria.\n\nHe is the pioneer Managing Director and CEO of Chrysalis Limited and has led numerous governance, forensic, and financial advisory assignments across diverse industries.\n\nHis counsel enables organisations to make sound financial decisions, improve operational performance, and achieve sustainable long-term growth.`,
+    bio: "Nearly four decades across professional practice, corporate leadership and the public sector. Pioneer Managing Director / CEO of Chrysalis Ltd, with deep expertise in governance and forensic engagements.",
     photo: akinkugbe,
   },
   {
@@ -44,7 +44,7 @@ const team = [
     role: "Head",
     title: "Tax Management & Advisory",
     creds: "HND, ACTI",
-    bio: `Anthony Ebele leads the firm's Tax Management and Advisory practice with extensive experience in corporate taxation, VAT administration, and regulatory compliance.\n\nHe provides strategic guidance on tax planning, transfer pricing, withholding tax management, and dispute resolution with relevant tax authorities.\n\nHis expertise helps clients remain fully compliant with applicable tax laws while optimising tax efficiency and minimising operational risk.`,
+    bio: "Leads our tax practice across corporate income tax, VAT, withholding tax, transfer pricing, and tax controversy support.",
     photo: ebele,
   },
   {
@@ -52,7 +52,7 @@ const team = [
     role: "Head",
     title: "Human Resources Consulting",
     creds: "BSc, MSc, SHRM-CP, ACIPM",
-    bio: `Dare Osoneye is a Human Resources professional with extensive experience in talent acquisition, employee relations, performance management, and organisational development.\n\nShe designs and implements HR strategies that align people practices with business objectives, enhancing productivity, workforce effectiveness, and compliance.\n\nShe is a certified HR consultant, a member of the Society for Human Resource Management (SHRM-CP), and an associate of the Chartered Institute of Personnel Management (ACIPM).`,
+    bio: "Heads our HR consulting practice with expertise in organisation design, reward, performance management, and HR policy frameworks.",
     photo: osoneye,
   },
 ];
@@ -60,9 +60,8 @@ const team = [
 export function Team() {
   return (
     <section id="team" className="relative py-28 lg:py-40 bg-[#F7F8FC]">
+      {/* Section header */}
       <div className="max-w-7xl mx-auto px-6 lg:px-10">
-
-        {/* Header */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
@@ -73,26 +72,21 @@ export function Team() {
           <div className="lg:col-span-6">
             <div className="flex items-center gap-3 mb-6">
               <span className="h-px w-10 bg-gold" />
-              <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">
-                Our team
-              </span>
+              <span className="text-xs uppercase tracking-[0.3em] text-muted-foreground">Our team</span>
             </div>
             <h2 className="font-display text-4xl md:text-6xl leading-[1.05]">
-              Senior practitioners.{" "}
-              <span className="italic text-gradient-gold">Partner-led</span>{" "}
-              engagements.
+              Senior practitioners. <span className="italic text-gradient-gold">Partner-led</span> engagements.
             </h2>
           </div>
-
           <div className="lg:col-span-5 lg:col-start-8 self-end">
             <p className="text-base lg:text-lg text-muted-foreground leading-relaxed">
-              Every assignment is led personally by a senior consultant bringing decades of hands-on
+              Every assignment is led personally by a senior consultant — bringing decades of hands-on
               expertise and accountability to the work we deliver.
             </p>
           </div>
         </motion.div>
 
-        {/* Grid */}
+        {/* Team grid */}
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
           {team.map((m, i) => (
             <motion.div
@@ -103,12 +97,13 @@ export function Team() {
               transition={{ duration: 0.6, delay: (i % 3) * 0.12 }}
               className="group relative bg-white rounded-2xl shadow-sm hover:shadow-xl transition-all duration-500 overflow-hidden border border-[#E8EDF8]"
             >
+              {/* Gold accent top bar */}
               <div className="h-1.5 w-full bg-gradient-to-r from-[#1B3FA0] via-[#F5C518] to-[#1B3FA0]" />
 
               <div className="p-8 flex flex-col items-center text-center">
-
-                {/* Image */}
+                {/* Circular photo */}
                 <div className="relative mb-6">
+                  {/* Outer ring */}
                   <div className="w-32 h-32 rounded-full p-1 bg-gradient-to-br from-[#1B3FA0] via-[#F5C518] to-[#1B3FA0] shadow-lg">
                     <div className="w-full h-full rounded-full overflow-hidden bg-[#E8EDF8]">
                       <img
@@ -118,16 +113,17 @@ export function Team() {
                       />
                     </div>
                   </div>
+                  {/* Small gold dot badge */}
                   <span className="absolute bottom-1 right-1 w-5 h-5 rounded-full bg-[#F5C518] border-2 border-white" />
                 </div>
 
                 {/* Name */}
-                <h3 className="font-display text-lg lg:text-xl font-semibold text-[#0D1B3E] mb-1">
+                <h3 className="font-display text-lg lg:text-xl font-semibold text-[#0D1B3E] leading-tight mb-1">
                   {m.name}
                 </h3>
 
-                {/* Role */}
-                <div className="inline-flex items-center bg-[#EEF2FB] text-[#1B3FA0] text-[11px] font-semibold uppercase tracking-[0.18em] px-3 py-1 rounded-full mb-1">
+                {/* Role pill */}
+                <div className="inline-flex items-center gap-1.5 bg-[#EEF2FB] text-[#1B3FA0] text-[11px] font-semibold uppercase tracking-[0.18em] px-3 py-1 rounded-full mb-1">
                   {m.role}
                 </div>
 
@@ -137,7 +133,7 @@ export function Team() {
                 </p>
 
                 {/* Credentials */}
-                <p className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground mb-4">
+                <p className="text-[10px] uppercase tracking-[0.22em] text-muted-foreground mb-4 font-medium">
                   {m.creds}
                 </p>
 
@@ -145,14 +141,9 @@ export function Team() {
                 <div className="w-10 h-px bg-[#F5C518] mb-4" />
 
                 {/* Bio */}
-                <div className="text-sm leading-relaxed text-muted-foreground text-left">
-                  {m.bio.split("\n\n").map((para, idx, arr) => (
-                    <p key={idx} className={idx !== arr.length - 1 ? "mb-4" : ""}>
-                      {para}
-                    </p>
-                  ))}
-                </div>
-
+                <p className="text-sm leading-relaxed text-muted-foreground">
+                  {m.bio}
+                </p>
               </div>
             </motion.div>
           ))}
