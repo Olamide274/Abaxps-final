@@ -12,11 +12,11 @@ const team = [
     role: "Principal Consultant",
     title: "Principal Consultant",
     creds: "B.Sc, FCA, FCIT",
-    bio: `Olapeju E. Sofowora is the Principal Consultant of ABAX Professional Services, bringing over 40 years of experience across audit, tax, corporate finance, and professional advisory services.
+    bio: `Olapeju E. Sofowora is the Principal Consultant of ABAX Professional Services, with over 40 years of experience across audit, tax, corporate finance, and professional advisory services.
 
-She began her career at Coopers & Lybrand (now PricewaterhouseCoopers) and later held senior leadership positions within the banking industry before establishing and leading several successful professional service practices.
+She began her career at Coopers & Lybrand (now PricewaterhouseCoopers), later held senior roles in the banking sector, and went on to establish and lead multiple successful professional services practices.
 
-Her extensive expertise, strategic leadership, and commitment to excellence continue to help organisations strengthen governance, improve performance, and achieve sustainable growth.`,
+She is a Fellow of the Institute of Chartered Accountants of Nigeria and the Chartered Institute of Taxation of Nigeria, and remains active in governance, compliance, and professional development.`,
     photo: sofowora,
   },
   {
@@ -24,11 +24,11 @@ Her extensive expertise, strategic leadership, and commitment to excellence cont
     role: "Senior Consultant",
     title: "Governance & Risk",
     creds: "B.Sc, FCA, CISA, CIRM",
-    bio: `Ayo Alamutu is a governance, risk, audit, and compliance professional with more than 30 years of experience spanning both Nigeria and the United Kingdom.
+    bio: `Ayo Alamutu is a governance, risk, audit, and compliance professional with more than 30 years of experience spanning Nigeria and the United Kingdom.
 
 He currently serves as Vice Chair of the Institute of Risk Management Nigeria Regional Group and has held several leadership positions within the internal audit and risk management profession.
 
-His work focuses on helping organisations build resilient governance structures, strengthen risk management frameworks, and improve regulatory compliance.`,
+His work focuses on helping organisations build resilient governance structures, strengthen risk frameworks, and maintain robust regulatory compliance.`,
     photo: alamutu,
   },
   {
@@ -38,9 +38,9 @@ His work focuses on helping organisations build resilient governance structures,
     creds: "B.Sc, FCA, CPFA",
     bio: `Babafunke Ajibade has over three decades of experience in audit and assurance across the private, public, and third sectors in both Nigeria and the United Kingdom.
 
-She specialises in quality assurance reviews, audit methodology, and compliance with international auditing and reporting standards.
+She specialises in quality assurance reviews, audit methodology, and compliance with international auditing and financial reporting standards.
 
-Her expertise helps organisations improve accountability, strengthen internal controls, and maintain high standards of financial reporting.`,
+Her work helps organisations strengthen internal controls, improve accountability, and uphold the highest standards of financial integrity.`,
     photo: ajibade,
   },
   {
@@ -48,11 +48,11 @@ Her expertise helps organisations improve accountability, strengthen internal co
     role: "Senior Consultant",
     title: "Financial Services",
     creds: "B.Sc, FCA",
-    bio: `Fusi Akinkugbe brings nearly four decades of experience spanning professional practice, corporate leadership, and public sector engagements.
+    bio: `Fusi Akinkugbe brings nearly four decades of experience across professional practice, corporate leadership, and public sector engagements in Nigeria.
 
-He is the pioneer Managing Director and Chief Executive Officer of Chrysalis Limited and has led numerous governance, forensic, and financial advisory assignments.
+He is the pioneer Managing Director and CEO of Chrysalis Limited and has led numerous governance, forensic, and financial advisory assignments across diverse industries.
 
-His experience enables organisations to make informed decisions, improve performance, and achieve sustainable business growth.`,
+His counsel enables organisations to make sound financial decisions, improve operational performance, and achieve sustainable long-term growth.`,
     photo: akinkugbe,
   },
   {
@@ -60,11 +60,11 @@ His experience enables organisations to make informed decisions, improve perform
     role: "Head",
     title: "Tax Management & Advisory",
     creds: "HND, ACTI",
-    bio: `Anthony Ebele leads the firm's Tax Management and Advisory practice with extensive experience across corporate taxation and regulatory compliance.
+    bio: `Anthony Ebele leads the firm's Tax Management and Advisory practice with extensive experience in corporate taxation, VAT administration, and regulatory compliance.
 
-He provides strategic guidance on tax planning, transfer pricing, VAT administration, withholding tax management, and dispute resolution.
+He provides strategic guidance on tax planning, transfer pricing, withholding tax management, and dispute resolution with relevant tax authorities.
 
-His expertise helps clients remain compliant while optimising tax efficiency and reducing operational risk.`,
+His expertise helps clients remain fully compliant with applicable tax laws while optimising tax efficiency and minimising operational risk.`,
     photo: ebele,
   },
   {
@@ -72,14 +72,15 @@ His expertise helps clients remain compliant while optimising tax efficiency and
     role: "Head",
     title: "Human Resources Consulting",
     creds: "BSc, MSc, SHRM-CP, ACIPM",
-    bio: `Dare Osoneye is a dedicated Human Resources professional with extensive experience in talent acquisition, employee relations, performance management, and organisational development.
+    bio: `Dare Osoneye is a Human Resources professional with extensive experience in talent acquisition, employee relations, performance management, and organisational development.
 
-He designs and implements HR strategies that align people practices with business objectives while enhancing productivity and workforce effectiveness.
+She designs and implements HR strategies that align people practices with business objectives, enhancing productivity, workforce effectiveness, and compliance.
 
-His passion for strategic HR consulting enables organisations to build high-performing teams and sustainable people-management frameworks.`,
+She is a certified HR consultant, a member of the Society for Human Resource Management (SHRM-CP), and an associate of the Chartered Institute of Personnel Management (ACIPM).`,
     photo: osoneye,
   },
 ];
+
 export function Team() {
   return (
     <section id="team" className="relative py-28 lg:py-40 bg-[#F7F8FC]">
@@ -168,14 +169,14 @@ export function Team() {
                 {/* Divider */}
                 <div className="w-10 h-px bg-[#F5C518] mb-4" />
 
-                {/* BIO (Clean Paragraph Rendering) */}
-                <p className="text-sm leading-relaxed text-muted-foreground">
-                  {m.bio.split("\n\n").map((para, idx) => (
-                    <span key={idx} className="block mb-3 last:mb-0">
+                {/* Bio */}
+                <div className="text-sm leading-relaxed text-muted-foreground text-left">
+                  {m.bio.split("\n\n").map((para, idx, arr) => (
+                    <p key={idx} className={idx !== arr.length - 1 ? "mb-4" : ""}>
                       {para}
-                    </span>
+                    </p>
                   ))}
-                </p>
+                </div>
 
               </div>
             </motion.div>
