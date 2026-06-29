@@ -12,11 +12,7 @@ const team = [
     role: "Principal Consultant",
     title: "Principal Consultant",
     creds: "B.Sc, FCA, FCIT",
-    bio: `Olapeju E. Sofowora is the Principal Consultant of ABAX Professional Services, with over 40 years of experience across audit, tax, corporate finance, and professional advisory services.
-
-She began her career at Coopers & Lybrand (now PricewaterhouseCoopers), later held senior roles in the banking sector, and went on to establish and lead multiple successful professional services practices.
-
-She is a Fellow of the Institute of Chartered Accountants of Nigeria and the Chartered Institute of Taxation of Nigeria, and remains active in governance, compliance, and professional development.`,
+    bio: `Olapeju E. Sofowora is the Principal Consultant of ABAX Professional Services, with over 40 years of experience across audit, tax, corporate finance, and professional advisory services.\n\nShe began her career at Coopers & Lybrand (now PricewaterhouseCoopers), later held senior roles in the banking sector, and went on to establish and lead multiple successful professional services practices.\n\nShe is a Fellow of the Institute of Chartered Accountants of Nigeria and the Chartered Institute of Taxation of Nigeria, and remains active in governance, compliance, and professional development.`,
     photo: sofowora,
   },
   {
@@ -24,11 +20,7 @@ She is a Fellow of the Institute of Chartered Accountants of Nigeria and the Cha
     role: "Senior Consultant",
     title: "Governance & Risk",
     creds: "B.Sc, FCA, CISA, CIRM",
-    bio: `Ayo Alamutu is a governance, risk, audit, and compliance professional with more than 30 years of experience spanning Nigeria and the United Kingdom.
-
-He currently serves as Vice Chair of the Institute of Risk Management Nigeria Regional Group and has held several leadership positions within the internal audit and risk management profession.
-
-His work focuses on helping organisations build resilient governance structures, strengthen risk frameworks, and maintain robust regulatory compliance.`,
+    bio: `Ayo Alamutu is a governance, risk, audit, and compliance professional with more than 30 years of experience spanning Nigeria and the United Kingdom.\n\nHe currently serves as Vice Chair of the Institute of Risk Management Nigeria Regional Group and has held several leadership positions within the internal audit and risk management profession.\n\nHis work focuses on helping organisations build resilient governance structures, strengthen risk frameworks, and maintain robust regulatory compliance.`,
     photo: alamutu,
   },
   {
@@ -36,11 +28,7 @@ His work focuses on helping organisations build resilient governance structures,
     role: "Senior Consultant",
     title: "Audit & Assurance",
     creds: "B.Sc, FCA, CPFA",
-    bio: `Babafunke Ajibade has over three decades of experience in audit and assurance across the private, public, and third sectors in both Nigeria and the United Kingdom.
-
-She specialises in quality assurance reviews, audit methodology, and compliance with international auditing and financial reporting standards.
-
-Her work helps organisations strengthen internal controls, improve accountability, and uphold the highest standards of financial integrity.`,
+    bio: `Babafunke Ajibade has over three decades of experience in audit and assurance across the private, public, and third sectors in both Nigeria and the United Kingdom.\n\nShe specialises in quality assurance reviews, audit methodology, and compliance with international auditing and financial reporting standards.\n\nHer work helps organisations strengthen internal controls, improve accountability, and uphold the highest standards of financial integrity.`,
     photo: ajibade,
   },
   {
@@ -48,11 +36,7 @@ Her work helps organisations strengthen internal controls, improve accountabilit
     role: "Senior Consultant",
     title: "Financial Services",
     creds: "B.Sc, FCA",
-    bio: `Fusi Akinkugbe brings nearly four decades of experience across professional practice, corporate leadership, and public sector engagements in Nigeria.
-
-He is the pioneer Managing Director and CEO of Chrysalis Limited and has led numerous governance, forensic, and financial advisory assignments across diverse industries.
-
-His counsel enables organisations to make sound financial decisions, improve operational performance, and achieve sustainable long-term growth.`,
+    bio: `Fusi Akinkugbe brings nearly four decades of experience across professional practice, corporate leadership, and public sector engagements in Nigeria.\n\nHe is the pioneer Managing Director and CEO of Chrysalis Limited and has led numerous governance, forensic, and financial advisory assignments across diverse industries.\n\nHis counsel enables organisations to make sound financial decisions, improve operational performance, and achieve sustainable long-term growth.`,
     photo: akinkugbe,
   },
   {
@@ -60,11 +44,7 @@ His counsel enables organisations to make sound financial decisions, improve ope
     role: "Head",
     title: "Tax Management & Advisory",
     creds: "HND, ACTI",
-    bio: `Anthony Ebele leads the firm's Tax Management and Advisory practice with extensive experience in corporate taxation, VAT administration, and regulatory compliance.
-
-He provides strategic guidance on tax planning, transfer pricing, withholding tax management, and dispute resolution with relevant tax authorities.
-
-His expertise helps clients remain fully compliant with applicable tax laws while optimising tax efficiency and minimising operational risk.`,
+    bio: `Anthony Ebele leads the firm's Tax Management and Advisory practice with extensive experience in corporate taxation, VAT administration, and regulatory compliance.\n\nHe provides strategic guidance on tax planning, transfer pricing, withholding tax management, and dispute resolution with relevant tax authorities.\n\nHis expertise helps clients remain fully compliant with applicable tax laws while optimising tax efficiency and minimising operational risk.`,
     photo: ebele,
   },
   {
@@ -72,11 +52,7 @@ His expertise helps clients remain fully compliant with applicable tax laws whil
     role: "Head",
     title: "Human Resources Consulting",
     creds: "BSc, MSc, SHRM-CP, ACIPM",
-    bio: `Dare Osoneye is a Human Resources professional with extensive experience in talent acquisition, employee relations, performance management, and organisational development.
-
-She designs and implements HR strategies that align people practices with business objectives, enhancing productivity, workforce effectiveness, and compliance.
-
-She is a certified HR consultant, a member of the Society for Human Resource Management (SHRM-CP), and an associate of the Chartered Institute of Personnel Management (ACIPM).`,
+    bio: `Dare Osoneye is a Human Resources professional with extensive experience in talent acquisition, employee relations, performance management, and organisational development.\n\nShe designs and implements HR strategies that align people practices with business objectives, enhancing productivity, workforce effectiveness, and compliance.\n\nShe is a certified HR consultant, a member of the Society for Human Resource Management (SHRM-CP), and an associate of the Chartered Institute of Personnel Management (ACIPM).`,
     photo: osoneye,
   },
 ];
@@ -101,7 +77,6 @@ export function Team() {
                 Our team
               </span>
             </div>
-
             <h2 className="font-display text-4xl md:text-6xl leading-[1.05]">
               Senior practitioners.{" "}
               <span className="italic text-gradient-gold">Partner-led</span>{" "}
