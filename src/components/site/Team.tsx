@@ -20,7 +20,7 @@ const team = [
     role: "Senior Consultant",
     title: "Governance & Risk",
     creds: "B.Sc, FCA, CISA, CIRM",
-    bio: `Ayo Alamutu is a governance, risk, audit, and compliance professional with more than 30 years of experience spanning Nigeria and the United Kingdom.\n\nHe currently serves as Vice Chair of the Institute of Risk Management Nigeria Regional Group and has held several leadership positions within the internal audit and risk management profession.\n\nHis work focuses on helping organisations build resilient governance structures, strengthen risk frameworks, and maintain robust regulatory compliance.`,
+    bio: `Ms. Alamutu is a Governance, Risk, Audit, Assurance, and Compliance Executive with over 30 years of experience across the UK and Nigeria. She advises Boards and senior management on enterprise risk, operational resilience, business continuity, and internal audit, supporting organisations to strengthen performance, manage disruption, and preserve value across sectors including banking, insurance, manufacturing, investment, and fintech. She is a Fellow of the Institute of Chartered Accountants of Nigeria (FICAN), a Certified Member of the Institute of Risk Management (CIRM), holds a Certificate in Risk Governance from the DCRO Institute, and currently serves as Vice Chair of the IRM Nigeria Regional Group. She is also an Information Systems Auditor, Project Management Professional, and a Board member of the Institute of Internal Auditors.`,
     photo: alamutu,
   },
   {
